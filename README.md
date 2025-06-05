@@ -1,8 +1,8 @@
-📄 Ferramenta PDF - Zucchetti
+# 📄 Ferramenta PDF - Zucchetti
 
 Este projeto oferece uma interface gráfica de usuário (GUI) 🖼️ desenvolvida para facilitar a manipulação de arquivos PDF. As funcionalidades incluem separar um único arquivo PDF em várias páginas individuais ✂️, extrair um conjunto específico de páginas para um novo arquivo PDF único 📜, e juntar múltiplos arquivos PDF em um único documento consolidado ➕. A aplicação foi criada utilizando a biblioteca `customtkinter` para uma aparência moderna e agradável ✨, e incorpora funcionalidades como arrastar e soltar (drag-and-drop) 🖱️ para maior conveniência do usuário.
 
-✨ Funcionalidades Principais
+## ✨ Funcionalidades Principais
 
 A ferramenta é organizada em três abas principais, cada uma dedicada a uma operação específica:
 
@@ -32,7 +32,7 @@ A ferramenta é organizada em três abas principais, cada uma dedicada a uma ope
     * O usuário especifica o nome e local para o arquivo PDF resultante 💾 através do botão "Salvar Como...".
     * Uma barra de progresso ⏳ é exibida durante a operação de junção.
 
-🌟 Recursos Adicionais
+## 🌟 Recursos Adicionais
 
 * **Interface Intuitiva:** Construída com `customtkinter`, oferecendo modos claro ☀️ e escuro 🌙 e um tema padrão ("dark-blue").
 * **Arrastar e Soltar (Drag-and-Drop):** Suporte para arrastar arquivos PDF diretamente para a aplicação nas abas "Separar" e "Extrair" (para o arquivo de entrada) e na aba "Juntar" (para adicionar múltiplos arquivos à lista).
@@ -43,7 +43,7 @@ A ferramenta é organizada em três abas principais, cada uma dedicada a uma ope
 * **Consciência de DPI (Windows):** A aplicação tenta ajustar sua escala automaticamente em monitores de alta resolução no Windows 🖥️ para uma melhor experiência visual.
 * **Nomenclatura Inteligente de Arquivos:** Arquivos de saída são nomeados de forma descritiva e evitam sobrescritas acidentais.
 
-🚀 Uso
+## 🚀 Uso
 
 1.  Execute a aplicação.
 2.  Selecione a aba correspondente à operação desejada: "Separar PDF (Pág. Indiv.)" ✂️, "Extrair Páginas Agrupadas" 📜, ou "Juntar PDF" ➕.
@@ -66,6 +66,6 @@ A ferramenta é organizada em três abas principais, cada uma dedicada a uma ope
         3.  Clique em "Salvar Como..." 💾 para especificar o nome e o local do arquivo PDF final.
         4.  Clique em "Juntar PDF Agora". Aguarde a conclusão.
 
-✍️ Autoria
+## ✍️ Autoria
 
 Conforme mencionado no código-fonte: `Este programa dedica seus direitos de criação a Ian Camargo.`
