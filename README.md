@@ -1,6 +1,6 @@
 # 📄 Ferramenta PDF - Zucchetti
 
-Este projeto oferece uma interface gráfica de usuário (GUI) 🖼️ desenvolvida para facilitar a manipulação de arquivos PDF, especificamente para dividir um único arquivo PDF em várias páginas individuais ✂️ e para juntar múltiplos arquivos PDF em um único documento consolidado ➕. A aplicação foi criada utilizando a biblioteca `customtkinter` para uma aparência moderna e agradável ✨, e incorpora funcionalidades como arrastar e soltar (drag-and-drop) 🖱️ para maior conveniência do usuário.
+Este projeto oferece uma interface gráfica de usuário (GUI) 🖼️ desenvolvida para facilitar a manipulação de arquivos PDF, especificamente para separar um único arquivo PDF em várias páginas individuais ✂️ e para juntar múltiplos arquivos PDF em um único documento consolidado ➕. A aplicação foi criada utilizando a biblioteca `customtkinter` para uma aparência moderna e agradável ✨, e incorpora funcionalidades como arrastar e soltar (drag-and-drop) 🖱️ para maior conveniência do usuário.
 
 ## ✨ Funcionalidades Principais
 
