@@ -6,9 +6,9 @@ Este projeto oferece uma interface gráfica de usuário (GUI) 🖼️ desenvolvi
 
 A ferramenta é organizada em duas abas principais, cada uma dedicada a uma operação específica:
 
-### ✂️ Dividir PDF
+### ✂️ Separar PDF
 
-Esta seção permite ao usuário selecionar um arquivo PDF existente e dividi-lo em arquivos separados, onde cada arquivo contém uma única página do documento original. O usuário precisa especificar o arquivo PDF de entrada 📥 e a pasta 📁 onde os arquivos resultantes serão salvos. Para organizar melhor a saída, a aplicação cria automaticamente uma subpasta dentro do diretório de saída escolhido, nomeada com base no arquivo PDF original (por exemplo, `nome_do_arquivo_paginas`), e salva todas as páginas individuais dentro dessa subpasta. A interface exibe uma barra de progresso ⏳ durante a operação de divisão, fornecendo feedback visual sobre o andamento do processo. É possível selecionar o arquivo de entrada clicando no botão "Selecionar PDF" ou simplesmente arrastando e soltando o arquivo PDF desejado na área indicada da janela.
+Esta seção permite ao usuário selecionar um arquivo PDF existente e separa-lo em arquivos separados, onde cada arquivo contém uma única página do documento original. O usuário precisa especificar o arquivo PDF de entrada 📥 e a pasta 📁 onde os arquivos resultantes serão salvos. Para organizar melhor a saída, a aplicação cria automaticamente uma subpasta dentro do diretório de saída escolhido, nomeada com base no arquivo PDF original (por exemplo, `nome_do_arquivo_paginas`), e salva todas as páginas individuais dentro dessa subpasta. A interface exibe uma barra de progresso ⏳ durante a operação de divisão, fornecendo feedback visual sobre o andamento do processo. É possível selecionar o arquivo de entrada clicando no botão "Selecionar PDF" ou simplesmente arrastando e soltando o arquivo PDF desejado na área indicada da janela.
 
 ### ➕ Juntar PDF
 
@@ -17,7 +17,7 @@ Nesta aba, os usuários podem combinar vários arquivos PDF em um único documen
 ### 🌟 Recursos Adicionais
 
 *   **Interface Intuitiva:** Construída com `customtkinter`, oferecendo modos claro ☀️ e escuro 🌙 e um tema padrão.
-*   **Arrastar e Soltar (Drag-and-Drop):** Suporte para arrastar arquivos PDF diretamente para a aplicação, tanto na aba "Dividir" (para o arquivo de entrada) quanto na aba "Juntar" (para adicionar múltiplos arquivos à lista).
+*   **Arrastar e Soltar (Drag-and-Drop):** Suporte para arrastar arquivos PDF diretamente para a aplicação, tanto na aba "Separar" (para o arquivo de entrada) quanto na aba "Juntar" (para adicionar múltiplos arquivos à lista).
 *   **Feedback Visual:** Barras de progresso ⏳ e mensagens de status 💬 informam o usuário sobre o andamento das operações e eventuais erros ⚠️.
 *   **Processamento em Segundo Plano:** As operações de divisão e junção são executadas em threads separadas 🧵 para manter a interface gráfica responsiva.
 *   **Consciência de DPI (Windows):** A aplicação tenta ajustar sua escala automaticamente em monitores de alta resolução no Windows 🖥️ para uma melhor experiência visual.
@@ -26,10 +26,10 @@ Nesta aba, os usuários podem combinar vários arquivos PDF em um único documen
 
 1.  Execute a aplicação conforme descrito acima.
 2.  Selecione a aba correspondente à operação desejada: "Dividir PDF" ✂️ ou "Juntar PDF" ➕.
-3.  **Para Dividir:**
-    *   Clique em "Selecionar PDF" para escolher o arquivo a ser dividido ou arraste e solte o arquivo na área indicada.
+3.  **Para Separar:**
+    *   Clique em "Selecionar PDF" para escolher o arquivo a ser separado ou arraste e solte o arquivo na área indicada.
     *   Clique em "Selecionar Pasta" para definir onde a subpasta com as páginas será criada.
-    *   Clique em "Dividir PDF Agora". Aguarde a conclusão indicada pela barra de progresso e mensagem de status.
+    *   Clique em "Separar PDF Agora". Aguarde a conclusão indicada pela barra de progresso e mensagem de status.
 4.  **Para Juntar:**
     *   Clique em "Adicionar PDFs" para selecionar os arquivos a serem juntados ou arraste e solte os arquivos na lista.
     *   Use os botões "Mover Acima" ⬆️, "Mover Abaixo" ⬇️ e "Remover Selecionado(s)" ❌ para organizar a lista conforme necessário.
