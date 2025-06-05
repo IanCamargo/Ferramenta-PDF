@@ -22,36 +22,6 @@ Nesta aba, os usuários podem combinar vários arquivos PDF em um único documen
 *   **Processamento em Segundo Plano:** As operações de divisão e junção são executadas em threads separadas 🧵 para manter a interface gráfica responsiva.
 *   **Consciência de DPI (Windows):** A aplicação tenta ajustar sua escala automaticamente em monitores de alta resolução no Windows 🖥️ para uma melhor experiência visual.
 
-## ⚙️ Dependências
-
-Para executar esta aplicação, as seguintes bibliotecas Python precisam estar instaladas:
-
-*   **customtkinter:** Para a criação da interface gráfica.
-*   **pypdf:** Para a manipulação (leitura e escrita) de arquivos PDF.
-*   **tkinterdnd2:** Para habilitar a funcionalidade de arrastar e soltar.
-
-O `tkinter` (biblioteca base para `customtkinter`) geralmente já vem incluído na instalação padrão do Python. As bibliotecas `platform`, `ctypes`, `os` e `threading` também são parte da biblioteca padrão do Python.
-
-## 🛠️ Instalação
-
-Antes de executar a aplicação, certifique-se de ter o Python 🐍 instalado em seu sistema. Em seguida, instale as dependências necessárias utilizando o pip, o gerenciador de pacotes do Python. Abra seu terminal ou prompt de comando e execute os seguintes comandos:
-
-```bash
-pip install customtkinter
-pip install pypdf
-pip install tkinterdnd2
-```
-
-## ▶️ Como Executar
-
-Após instalar as dependências, navegue até o diretório onde o arquivo Python da aplicação (por exemplo, `ferramenta_pdf.py`) está localizado usando o terminal ou prompt de comando. Execute a aplicação com o seguinte comando:
-
-```bash
-python ferramenta_pdf.py
-```
-
-Isso iniciará a interface gráfica da Ferramenta PDF.
-
 ## 🚀 Uso
 
 1.  Execute a aplicação conforme descrito acima.
